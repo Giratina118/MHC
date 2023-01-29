@@ -1,0 +1,56 @@
+main
+static void Main(string[] args)
+
+출력
+System.Console.Write("Hello World");
+WriteLine -> 줄바꿈 포함
+MyName MyAge 변수 지정 (입력)
+System.Console.Write($"이름은 {MyName} 이고, 나이는 {MyAge} 입니다. ");
+System.Console.Write("이름은 {0} 이고, 나이는 {1} 입니다. ", MyName, MyAge);
+
+입력
+변수 = System.Console.ReadLine();
+
+
+문자열끼리 더하기(+) -> 문자열 합쳐짐
+
+
+캐스팅 (형식을 바꾸는 행위)	ex) 문장 -> 숫자
+string Year;
+System.Console.WriteLine("태어난 년도를 입력해 주세요 : ");
+Year = System.Console.ReadLine();
+
+int AgeNumber = Convert.ToInt32(Year);
+	-> 문자열을 정수로
+string Age = (2023 - AgeNumber).ToString();
+	-> 정수를 문자열로
+System.Console.WriteLine(Age);
+
+문자 그대로 출력(엔터 포함) -> "앞에 골뱅이 붙이기
+System.Console.WriteLine(@"
+□□■□□
+□■■■□
+■■■■■");
+
+각 자료형의 최대값, 최소값
+int.MaxValue, int.MinValue,  float.MaxValue, float.MinValue
+
+
+값을 가져오는데 자료형이 뭔지 모를 때
+var Mynameis = "유민혁";	-> string
+var iii = 3;		-> int
+var fff = 3.12f;		-> float
+var -> 값을 보고 자동으로 자료형 지정(C#에만 있음)
+
+string형 변수에 .Length 붙이면 길이를 알 수 있다
+
+배열		new로 할당
+int[] iii = new int[5];
+int[] kkk = new int[5] { 0, 1, 2, 3, 4 };
+
+나중에 크기 할당하기(입력받은 후)
+int[] LaterArray;
+System.Console.WriteLine("배열의 크기는?");
+String ArraySize = System.Console.ReadLine();
+LaterArray = new int[Convert.ToInt32(ArraySize)];
+
