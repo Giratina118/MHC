@@ -225,6 +225,26 @@ namespace CSharpStudy
             System.Console.WriteLine($"0번 값은 {_lang[0]}입니다.");
             */
 
+
+            //식당에 음식이 떡볶이, 김밥, 라면, 라뽁이가 있다.
+            //이중에 숫자를 입력받으면 입력받은 값은 비어있게 된다.
+            //최초 음식들과 숫자를 입력방았을 때 음식을 출력하고
+            //비어있게 되었다는 결과값도 출력하라
+
+            string Choice;
+            int ChoiceNumber;
+            string[] food = new string[4] { "떡볶이", "김밥", "라면", "라볶이" };
+            System.Console.WriteLine("1 떡볶이, 2 김밥, 3 라면, 4 라볶이 중 드실 음식의 번호를 입력해 주세요.");
+            Choice = System.Console.ReadLine();
+            ChoiceNumber = System.Convert.ToInt32(Choice) - 1;
+
+            System.Console.WriteLine($"{food[ChoiceNumber]} 선택되었습니다.");
+            food[ChoiceNumber] = " ";
+
+            System.Console.WriteLine($"{food[0]} {food[1]} {food[2]} {food[3]} 남았습니다.");
+
+
+
         }
     }
 }
