@@ -26,7 +26,7 @@ namespace CsharpUnityClass_0201
             System.Console.WriteLine("");
             System.Console.WriteLine("");
             System.Console.WriteLine("");
-            int Age = 2023 - System.Convert.ToInt32(BirthYear);
+            int Age = 2024 - System.Convert.ToInt32(BirthYear);
 
             System.Console.WriteLine($"이름은 {Name}입니다.");
             System.Console.WriteLine($"나이는 {Age}입니다.");
