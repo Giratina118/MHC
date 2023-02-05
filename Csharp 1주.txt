@@ -25,6 +25,7 @@ int AgeNumber = Convert.ToInt32(Year);
 string Age = (2023 - AgeNumber).ToString();
 	-> 정수를 문자열로
 System.Console.WriteLine(Age);
+(int)floatnum -> 실수를 정수로
 
 문자 그대로 출력(엔터 포함) -> "앞에 골뱅이 붙이기
 System.Console.WriteLine(@"
@@ -53,4 +54,6 @@ int[] LaterArray;
 System.Console.WriteLine("배열의 크기는?");
 String ArraySize = System.Console.ReadLine();
 LaterArray = new int[Convert.ToInt32(ArraySize)];
+
+
 
