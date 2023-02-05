@@ -10,7 +10,7 @@ namespace CSharpStudy2_1
     {
         static void Main(string[] args)
         {
-            /*
+            
             //1. 이름을 입력받기
             string name;
             System.Console.Write("이름을 입력해 주세요: ");
@@ -57,7 +57,7 @@ namespace CSharpStudy2_1
             System.Console.WriteLine($"이름은 {information[0]}입니다.");
             System.Console.WriteLine($"나이는 {information[1]}살 입니다.");
             System.Console.WriteLine($"자기소개: {information[2]}");
-            */
+            
 
         }
     }
