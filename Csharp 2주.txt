@@ -62,6 +62,7 @@ switch (조건) {
 continue; -> 이후 내용 읽지 않고 강제로 반복문 다시 반복
 break; -> 반복문 종료
 
+
 메소드 (함수 만들기)
 private static void showUpNewSentence()
         {

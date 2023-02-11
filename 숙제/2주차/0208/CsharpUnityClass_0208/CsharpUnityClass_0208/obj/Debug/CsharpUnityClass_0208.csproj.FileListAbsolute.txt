@@ -1,0 +1,8 @@
+C:\Users\MinHyeok\Desktop\alsgur\SCA\CsharpUnity\숙제\2주차\0208\CsharpUnityClass_0208\CsharpUnityClass_0208\bin\Debug\CsharpUnityClass_0208.exe.config
+C:\Users\MinHyeok\Desktop\alsgur\SCA\CsharpUnity\숙제\2주차\0208\CsharpUnityClass_0208\CsharpUnityClass_0208\bin\Debug\CsharpUnityClass_0208.exe
+C:\Users\MinHyeok\Desktop\alsgur\SCA\CsharpUnity\숙제\2주차\0208\CsharpUnityClass_0208\CsharpUnityClass_0208\bin\Debug\CsharpUnityClass_0208.pdb
+C:\Users\MinHyeok\Desktop\alsgur\SCA\CsharpUnity\숙제\2주차\0208\CsharpUnityClass_0208\CsharpUnityClass_0208\obj\Debug\CsharpUnityClass_0208.csproj.AssemblyReference.cache
+C:\Users\MinHyeok\Desktop\alsgur\SCA\CsharpUnity\숙제\2주차\0208\CsharpUnityClass_0208\CsharpUnityClass_0208\obj\Debug\CsharpUnityClass_0208.csproj.SuggestedBindingRedirects.cache
+C:\Users\MinHyeok\Desktop\alsgur\SCA\CsharpUnity\숙제\2주차\0208\CsharpUnityClass_0208\CsharpUnityClass_0208\obj\Debug\CsharpUnityClass_0208.csproj.CoreCompileInputs.cache
+C:\Users\MinHyeok\Desktop\alsgur\SCA\CsharpUnity\숙제\2주차\0208\CsharpUnityClass_0208\CsharpUnityClass_0208\obj\Debug\CsharpUnityClass_0208.exe
+C:\Users\MinHyeok\Desktop\alsgur\SCA\CsharpUnity\숙제\2주차\0208\CsharpUnityClass_0208\CsharpUnityClass_0208\obj\Debug\CsharpUnityClass_0208.pdb
