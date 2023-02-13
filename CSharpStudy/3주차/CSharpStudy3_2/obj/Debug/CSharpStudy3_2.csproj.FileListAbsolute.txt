@@ -1,0 +1,7 @@
+C:\Users\admin\Desktop\MHSCA\CSharpStudy\3주차\CSharpStudy3_2\bin\Debug\CSharpStudy3_2.exe.config
+C:\Users\admin\Desktop\MHSCA\CSharpStudy\3주차\CSharpStudy3_2\bin\Debug\CSharpStudy3_2.exe
+C:\Users\admin\Desktop\MHSCA\CSharpStudy\3주차\CSharpStudy3_2\bin\Debug\CSharpStudy3_2.pdb
+C:\Users\admin\Desktop\MHSCA\CSharpStudy\3주차\CSharpStudy3_2\obj\Debug\CSharpStudy3_2.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\MHSCA\CSharpStudy\3주차\CSharpStudy3_2\obj\Debug\CSharpStudy3_2.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\MHSCA\CSharpStudy\3주차\CSharpStudy3_2\obj\Debug\CSharpStudy3_2.exe
+C:\Users\admin\Desktop\MHSCA\CSharpStudy\3주차\CSharpStudy3_2\obj\Debug\CSharpStudy3_2.pdb
