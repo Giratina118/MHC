@@ -65,9 +65,9 @@ break; -> 반복문 종료
 
 메소드 (함수 만들기)
 private static void showUpNewSentence()
-        {
-            System.Console.WriteLine("새로운 문장");
-        }
+{
+	System.Console.WriteLine("새로운 문장");
+}
 
 private		-> 접근 통제, 자신만
 protected	-> 자신과 자식만
