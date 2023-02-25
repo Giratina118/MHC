@@ -1,0 +1,3 @@
+C:\Users\MinHyeok\Desktop\alsgur\SCA\CsharpUnity\CSharpStudy\개인 프로젝트\HorseRacing\HorseRacing\obj\Debug\HorseRacing.csproj.AssemblyReference.cache
+C:\Users\MinHyeok\Desktop\alsgur\SCA\CsharpUnity\CSharpStudy\개인 프로젝트\HorseRacing\HorseRacing\obj\Debug\HorseRacing.csproj.SuggestedBindingRedirects.cache
+C:\Users\MinHyeok\Desktop\alsgur\SCA\CsharpUnity\CSharpStudy\개인 프로젝트\HorseRacing\HorseRacing\obj\Debug\HorseRacing.csproj.CoreCompileInputs.cache

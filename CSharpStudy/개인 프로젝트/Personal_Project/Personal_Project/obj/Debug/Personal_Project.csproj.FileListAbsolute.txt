@@ -1,0 +1,8 @@
+C:\Users\MinHyeok\Desktop\alsgur\SCA\CsharpUnity\CSharpStudy\개인 프로젝트\Personal_Project\Personal_Project\bin\Debug\Personal_Project.exe.config
+C:\Users\MinHyeok\Desktop\alsgur\SCA\CsharpUnity\CSharpStudy\개인 프로젝트\Personal_Project\Personal_Project\bin\Debug\Personal_Project.exe
+C:\Users\MinHyeok\Desktop\alsgur\SCA\CsharpUnity\CSharpStudy\개인 프로젝트\Personal_Project\Personal_Project\bin\Debug\Personal_Project.pdb
+C:\Users\MinHyeok\Desktop\alsgur\SCA\CsharpUnity\CSharpStudy\개인 프로젝트\Personal_Project\Personal_Project\obj\Debug\Personal_Project.csproj.AssemblyReference.cache
+C:\Users\MinHyeok\Desktop\alsgur\SCA\CsharpUnity\CSharpStudy\개인 프로젝트\Personal_Project\Personal_Project\obj\Debug\Personal_Project.csproj.SuggestedBindingRedirects.cache
+C:\Users\MinHyeok\Desktop\alsgur\SCA\CsharpUnity\CSharpStudy\개인 프로젝트\Personal_Project\Personal_Project\obj\Debug\Personal_Project.csproj.CoreCompileInputs.cache
+C:\Users\MinHyeok\Desktop\alsgur\SCA\CsharpUnity\CSharpStudy\개인 프로젝트\Personal_Project\Personal_Project\obj\Debug\Personal_Project.exe
+C:\Users\MinHyeok\Desktop\alsgur\SCA\CsharpUnity\CSharpStudy\개인 프로젝트\Personal_Project\Personal_Project\obj\Debug\Personal_Project.pdb
