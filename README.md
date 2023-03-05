@@ -6,6 +6,10 @@
 - 게임 3개 (경마, 블랙젝, 스플랜더)
 
 ### 경마
+![캡처_2023_03_05_16_31_12_734](https://user-images.githubusercontent.com/58595212/222947844-d233bddb-dc87-44f9-9d40-eaa0aaf85b0f.png)
+![캡처_2023_03_05_16_31_15_999](https://user-images.githubusercontent.com/58595212/222947853-2fdbec81-85f9-421e-896f-6776ded73367.png)
+![캡처_2023_03_05_16_31_50_118](https://user-images.githubusercontent.com/58595212/222947874-4449155f-65ea-4f95-badb-2e405b902ac9.png)
+
 #### 플레이
 시작하면 말들이 달리기 시작, 도착한 순서에 따라 순위가 정해진다.
 
