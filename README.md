@@ -47,6 +47,8 @@
 
 ### 블랙젝
 https://user-images.githubusercontent.com/58595212/222948179-91c33422-39fa-4e9f-87f5-5f8c81fbd3e0.mp4
+![캡처_2023_03_05_16_56_25_42](https://user-images.githubusercontent.com/58595212/222948821-4a1980de-058a-4a37-a3c8-6bcd11f9c1c0.png)
+![캡처_2023_03_05_16_57_07_877](https://user-images.githubusercontent.com/58595212/222948837-710aa7a3-aea2-4bab-862c-c412eda5442e.png)
 
 
 #### 플레이
@@ -92,7 +94,10 @@ public void CardPrintMiddle(int j)          // 카드 그림 그리기 (중간, 
 
 ### 스플랜더
 https://user-images.githubusercontent.com/58595212/222948585-39a88f15-1ef1-48fb-9a9c-3d571421c4ea.mp4
-플레이 모습
+![캡처_2023_03_05_16_57_43_142](https://user-images.githubusercontent.com/58595212/222948864-2863002d-e2b0-4d78-98ab-e9f6b962d8c9.png)
+![캡처_2023_03_05_16_59_32_158](https://user-images.githubusercontent.com/58595212/222948936-d8bb5d0e-3dc0-4191-91b5-532a11475fce.png)
+![캡처_2023_03_05_16_59_39_678](https://user-images.githubusercontent.com/58595212/222948944-b3ea7172-9de1-4099-8861-d39b1b044460.png)
+
 
 #### 플레이 순서
 1. 자신의 턴에 토큰 가져가기 or 카드 구매하기 중 한 가지를 선택하여 행동한다.
