@@ -11,6 +11,7 @@
 
 #### 사용 기술
 
+```
   Thread.Sleep(50);
   Console.Clear();
   Console.WriteLine();
@@ -33,6 +34,7 @@
       horse[i].GoalHorseDraw(i);    // 도착한 말 그림
     Console.WriteLine("                                                                                                         |");
   }
+```
 위 과정을 계속 반복하여 말들의 이돌거리를 증가시킨다.
 
 
@@ -60,6 +62,7 @@ A ~ K, ♠︎ ♥︎ ◆ ♣︎, 13 × 4 = 총 52장
 class Card를 만들어 모든 카드들의 정보를 저장, 관리하고
 플레이어와 딜러(컴퓨터)가 각각 class BlackjackPlayer, class BlackjackComputer라는 Card클래스에서 상속받은 클래스를 통해 자신들의 정보를 저장, 게임 진행 과정을 관리한다.
 
+```
 public void CardPrintMiddle(int j)          // 카드 그림 그리기 (중간, 무늬, 숫자 부분만)
         {
             if ((card[j] / 13) % 2 == 1)
@@ -75,7 +78,7 @@ public void CardPrintMiddle(int j)          // 카드 그림 그리기 (중간, 
             //Console.Write("ㅣ  ");
             Console.Write("┃   ");
         }
-
+```
 
 ### 스플랜더
 #### 플레이 순서
