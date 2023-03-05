@@ -6,9 +6,11 @@
 - 게임 3개 (경마, 블랙젝, 스플랜더)
 
 ### 경마
-![캡처_2023_03_05_16_31_12_734](https://user-images.githubusercontent.com/58595212/222947844-d233bddb-dc87-44f9-9d40-eaa0aaf85b0f.png)
-![캡처_2023_03_05_16_31_15_999](https://user-images.githubusercontent.com/58595212/222947853-2fdbec81-85f9-421e-896f-6776ded73367.png)
-![캡처_2023_03_05_16_31_50_118](https://user-images.githubusercontent.com/58595212/222947874-4449155f-65ea-4f95-badb-2e405b902ac9.png)
+![캡처_2023_03_05_16_34_52_989](https://user-images.githubusercontent.com/58595212/222947996-5c4c2d74-71d9-43a8-92d1-94f9e0899a09.png)
+![캡처_2023_03_05_16_34_55_7](https://user-images.githubusercontent.com/58595212/222948005-3e441189-7c95-4cbe-9c25-0dc3ceb53e39.png)
+![캡처_2023_03_05_16_34_57_88](https://user-images.githubusercontent.com/58595212/222948012-e68705c0-cfcc-4afe-a6b6-382cfb66b339.png)
+![캡처_2023_03_05_16_34_59_623](https://user-images.githubusercontent.com/58595212/222948016-4a1975e0-ff3f-4220-b89e-4b65dc663ffd.png)
+
 
 #### 플레이
 시작하면 말들이 달리기 시작, 도착한 순서에 따라 순위가 정해진다.
