@@ -60,7 +60,7 @@ namespace Personal_Project
             }
         }
 
-        static int gameEnd()
+        static int gameEnd()        // 게임 종료 여부 묻기
         {
             while (true)
             {
@@ -77,7 +77,7 @@ namespace Personal_Project
             }
         }
 
-        static void HorseRacing()       // 경마 Horse Racing
+        static void HorseRacing()       // 경마
         {
             // 나중에 시간 남으면 말마다 승리 확률 다르게, 그에 따라 돈 배당률 다르게 설정하고 그 승률, 평균 등수, 통과 기록(시간) 보여주기
 
@@ -218,7 +218,7 @@ namespace Personal_Project
         }
 
 
-        static void Splendor()
+        static void Splendor()          // 스플랜더
         {
             SplendorSystem spSystem = new SplendorSystem();
             SplendorCardInfo card = new SplendorCardInfo();
@@ -255,7 +255,7 @@ namespace Personal_Project
                 {
                     Console.Clear();
                     
-                    enemy.ShowEnemyPlayerInfo(players, playerNum, i, field);
+                    //enemy.ShowEnemyPlayerInfo(players, playerNum, i, field);
 
                     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
                     field.ShowField(playerNum, card);
@@ -393,7 +393,7 @@ namespace Personal_Project
 
                         spSystem.TokenOver10(players, field, card, i, playerNum, enemy);
                         #region
-                        /*
+                        
                         int totalToken = 0;
                         for (int j = 0; j < 6; j++)
                             totalToken += players[i].ownToken[j];
@@ -414,7 +414,7 @@ namespace Personal_Project
                                 }
                             }
                         }
-                        */
+                        
                         #endregion
                     }
                     else if (action == 2)
@@ -932,12 +932,8 @@ ___/>                                                                           
     }
 
 
-    class SplendorSystem
+    class SplendorSystem    // 입력값이 잘못됐을 경우 뒤로가기, 카드 구매 과정, 귀족 획득 과정, 토큰 10개 맞추는 과정, 순위 산출 과정 등 전반적인 시스템 묶어둠
     {
-        public void TokenPick()
-        {
-
-        }
         public int Backint(int i)   // 숫자 벗어남, 필드 토큰 부족, 토큰 부족, 중복 금지, 4개 이상
         {
             switch (i)
@@ -1066,7 +1062,7 @@ ___/>                                                                           
                 {
                     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
                     Console.Clear();
-                    enemy.ShowEnemyPlayerInfo(players, playerNum, i, field);
+                    //enemy.ShowEnemyPlayerInfo(players, playerNum, i, field);
 
                     field.ShowField(playerNum, card);
                     Console.WriteLine($"\n플레이어{i + 1}의 차례");
@@ -1111,7 +1107,7 @@ ___/>                                                                           
         public bool ownPlayer = false;                              // 플레이어가 필드의 카드를 샀을 떄 그 자리를 덱에 있는 새 카드로 채우기 위해 체크
     }
 
-    class SplendorCardInfo      // 카드 종류들 저장 (총 90장)
+    class SplendorCardInfo  // 카드 종류들 저장 (총 90장)
     {
         public SplendorCard[] Card1 = new SplendorCard[40];     // 1단계 카드 뭉치    카드의 단계가 높을 수록 카스의 가격과 점수가 높아진다.
         public SplendorCard[] Card2 = new SplendorCard[30];     // 2단계 카드 뭉치
@@ -1235,7 +1231,7 @@ ___/>                                                                           
         }
     }
 
-    class SplendorRoyal         // 귀족 타일 정보
+    class SplendorRoyal     // 귀족 타일 정보
     {
         public int[] cardJewel = new int[5] { 0, 0, 0, 0, 0 };      // 귀족 타일 획득 조건(필요 보너스 토큰), 하양 파랑 초록 빨강 검정 순
         public int royalPoint = 3;                                  // 귀족 타일 점수
@@ -1243,7 +1239,7 @@ ___/>                                                                           
         public bool ownPlayer = false;                              // 귀족 타일을 플레이어가 얻었는지 체크 (귀족 타일 중복 획득 방지)
     }
 
-    class RoyalInfo
+    class RoyalInfo         // 귀족 타일 종류들 저장 
     {
         public SplendorRoyal[] royal = new SplendorRoyal[10];       // 전체 귀족 타일 뭉치
 
@@ -1265,7 +1261,7 @@ ___/>                                                                           
         }
     }
 
-    class SplendorPlayer
+    class SplendorPlayer    // 플레이어 정보 저장, 표시
     {
         public int[] ownBonusToken = new int[5] { 0, 0, 0, 0, 0 };  // 플레이어가 가지고 있는 보너스 토큰, 하양 파랑 초록 빨강 검정 순, (보너스 토큰은 카드 구매로만 획득)
         public int[] ownToken = new int[6] { 0, 0, 0, 0, 0, 0 };    // 플레이어가 가지고 있는 토큰, 하양 파랑 초록 빨강 검정 조커 순, (토큰은 한 사람당 최대 10개까지 보유 가능)
@@ -1330,15 +1326,15 @@ ___/>                                                                           
             Console.Write("┃               \n┃ 토큰:    ");
             for (int i = 0; i < 6; i++)
             {
-                field.ColorChange((i + 5) % 6);
-                Console.Write($"●{ownToken[(i + 5) % 6]}  ");
+                field.ColorChange(i);
+                Console.Write($"●{ownToken[i]}  ");
             }
             field.ColorChange(6);
             Console.WriteLine("┃               \n┖────────────────────────────────────────┚    ");
         }
     }
 
-    class enemyPlayerInfo
+    class enemyPlayerInfo   // 상대 정보 표시
     {
         public void ShowEnemyPlayerInfo(SplendorPlayer[] players, int playerNum, int player, SplendorField field)
         {
@@ -1431,7 +1427,7 @@ ___/>                                                                           
         }
     }
 
-    class SplendorField
+    class SplendorField     // 필드에 표시될 정보들(깔려있는 카드, 귀족타일, 토큰) 작성, 필드에 표시
     {
         public int[] token = new int[6] { 0, 0, 0, 0, 0, 0 };
         public SplendorCard[] card1Field = new SplendorCard[4];
