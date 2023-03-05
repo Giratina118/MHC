@@ -13,4 +13,3 @@ C:\Users\admin\Desktop\MHSCA\CSharpStudy\개인 프로젝트\Personal_Project\Pe
 C:\Users\admin\Desktop\MHSCA\CSharpStudy\개인 프로젝트\Personal_Project\Personal_Project\obj\Debug\Personal_Project.csproj.CoreCompileInputs.cache
 C:\Users\admin\Desktop\MHSCA\CSharpStudy\개인 프로젝트\Personal_Project\Personal_Project\obj\Debug\Personal_Project.exe
 C:\Users\admin\Desktop\MHSCA\CSharpStudy\개인 프로젝트\Personal_Project\Personal_Project\obj\Debug\Personal_Project.pdb
-C:\Users\admin\Desktop\MHSCA\CSharpStudy\개인 프로젝트\Personal_Project\Personal_Project\obj\Debug\Personal_Project.csproj.SuggestedBindingRedirects.cache
