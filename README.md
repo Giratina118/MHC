@@ -4,6 +4,7 @@
 - 제작자: 유민혁
 - 제작 기간: 2023/02/20 ~ 2023/03/05
 - 게임 3개 (경마, 블랙젝, 스플랜더)
+![캡처_2023_03_05_16_36_55_571](https://user-images.githubusercontent.com/58595212/222948058-1df43491-656e-4e03-8a31-a6bb50130a96.png)
 
 ### 경마
 ![캡처_2023_03_05_16_34_52_989](https://user-images.githubusercontent.com/58595212/222947996-5c4c2d74-71d9-43a8-92d1-94f9e0899a09.png)
@@ -45,6 +46,9 @@
 
 
 ### 블랙젝
+https://user-images.githubusercontent.com/58595212/222948179-91c33422-39fa-4e9f-87f5-5f8c81fbd3e0.mp4
+
+
 #### 플레이
 21에 가까우면 승리
 A -> 11 or 1로 취급
@@ -87,6 +91,9 @@ public void CardPrintMiddle(int j)          // 카드 그림 그리기 (중간, 
 ```
 
 ### 스플랜더
+https://user-images.githubusercontent.com/58595212/222948585-39a88f15-1ef1-48fb-9a9c-3d571421c4ea.mp4
+플레이 모습
+
 #### 플레이 순서
 1. 자신의 턴에 토큰 가져가기 or 카드 구매하기 중 한 가지를 선택하여 행동한다.
 
