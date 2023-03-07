@@ -1,0 +1,26 @@
+diff a/CSharpStudy/개인 프로젝트/Personal_Project/Personal_Project/Program.cs b/CSharpStudy/개인 프로젝트/Personal_Project/Personal_Project/Program.cs	(rejected hunks)
+@@ -7,14 +7,23 @@
+ using System.IO;
+ using System.Diagnostics;
+ using System.Drawing;
++using System.Runtime.Serialization.Formatters;
++using System.Diagnostics.Eventing.Reader;
++using static System.Net.Mime.MediaTypeNames;
++using System.Runtime.CompilerServices;
++using System.Configuration;
++using System.Xml.Serialization;
++using System.Reflection;
++using System.Dynamic;
+ 
+ namespace Personal_Project
+ {
+     internal class Program
++
+     {
+         static void Main(string[] args)
+         {
+-            PokemonRPG();
++            Splendor();
+ 
+             /*
+             Console.WriteLine("할 게임을 선택해 주세요.\n1. 경마     2. 블랙잭     3. RPG");
