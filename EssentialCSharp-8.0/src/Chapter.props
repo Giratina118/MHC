@@ -1,6 +1,0 @@
-<Project>
-  <PropertyGroup>
-    <OutputType>Exe</OutputType>
-    <StartupObject>AddisonWesley.Michaelis.EssentialCSharp.Shared.Program</StartupObject>
-  </PropertyGroup>
-</Project>

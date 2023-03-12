@@ -9,4 +9,8 @@
 
 visual Studio Installer 실행 -> 수정
 -> .NET 데스크톱 개발, 유니버설 Windows 플랫폼 개발, Unity를 사용한 게임 개발
-3개가 
+3개가 다 설치되어 있어야 함
+
+유니티, 비주얼 스튜디오 연결하기
+Unity -> Edit -> Preferences -> External Tools에서
+External Script Editor에 자신의 Visual Studio를 선택, 그 후 유니티 껐다 켜기
