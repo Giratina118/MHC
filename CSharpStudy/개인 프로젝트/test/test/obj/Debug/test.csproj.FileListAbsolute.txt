@@ -1,8 +1,0 @@
-C:\Users\MinHyeok\Desktop\alsgur\SCA\CsharpUnity\CSharpStudy\개인 프로젝트\test\test\bin\Debug\test.exe.config
-C:\Users\MinHyeok\Desktop\alsgur\SCA\CsharpUnity\CSharpStudy\개인 프로젝트\test\test\bin\Debug\test.exe
-C:\Users\MinHyeok\Desktop\alsgur\SCA\CsharpUnity\CSharpStudy\개인 프로젝트\test\test\bin\Debug\test.pdb
-C:\Users\MinHyeok\Desktop\alsgur\SCA\CsharpUnity\CSharpStudy\개인 프로젝트\test\test\obj\Debug\test.csproj.AssemblyReference.cache
-C:\Users\MinHyeok\Desktop\alsgur\SCA\CsharpUnity\CSharpStudy\개인 프로젝트\test\test\obj\Debug\test.csproj.SuggestedBindingRedirects.cache
-C:\Users\MinHyeok\Desktop\alsgur\SCA\CsharpUnity\CSharpStudy\개인 프로젝트\test\test\obj\Debug\test.csproj.CoreCompileInputs.cache
-C:\Users\MinHyeok\Desktop\alsgur\SCA\CsharpUnity\CSharpStudy\개인 프로젝트\test\test\obj\Debug\test.exe
-C:\Users\MinHyeok\Desktop\alsgur\SCA\CsharpUnity\CSharpStudy\개인 프로젝트\test\test\obj\Debug\test.pdb
