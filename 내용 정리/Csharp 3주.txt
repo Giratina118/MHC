@@ -1,0 +1,107 @@
+ConsoleKeyInfo cski;
+입력받은 키 정보를 변수 cski에 저장
+
+Console.Clear();
+화면 정리 (아무것도 없게)
+
+Console.SetCursorPosition(x, y);
+커서 위치 설정
+
+cski = Console.ReadKey(true);
+키를 입력압았을 때 바로 작동하는지 여부 설정
+
+cski.Key
+현재 cski에 입력받은 키 값
+
+ConsoleKey.LeftArrow:
+ConsoleKey.RightArrow:
+ConsoleKey.UpArrow:
+ConsoleKey.DownArrow:
+방향키
+
+#region 제목 지정
+...내용
+#endregion
+-> #region과 #endregion 사이를 접기 가능
+제목 지정 위치에 글을 적으면 접었을 때 그 글이 보임
+
+ctrl + k + c	주석 처리
+ctrl + k + u	주석 해제
+
+
+이슈 github
+해당 폴더에서 해야할 작업/설명/오류 등을 기록해두는 공간
+
+
+
+클래스
+일종의 빵틀, 어떤 값을 넣는 지, 누가 만드는 지, 
+아디서 만드는 지에 따라 다른 녀석이 된다.
+		-> 인스턴스화
+
+class Student {
+	public string name;  -> 각각의 필드
+	public int age;
+	public string[] info;
+	 -> 클래스 안에 배열을 선언해도 된다.
+
+	public void WriteLineStudentInfo() {
+		System.Console.WriteLine($"학생의 이름은 {name}");
+            	System.Console.WriteLine($"학생의 나이는 {age}");
+	}  -> 매소드 선언도 가능
+}    -> 자료형이 다양한 배열, 구조체와 비슷
+
+public void InputStudentInfoData() {
+            name = System.Console.ReadLine();
+            age = System.Convert.ToInt32(System.Console.ReadLine());
+	WriteLineStudentInfo();
+}
+
+메인 안에 선언
+Student Astudent = new Student();
+	Student 클래스에 맞는 Astudent 변수 틀을 제작
+
+
+AStudent.name = "유민혁";
+AStudent.age = 24;
+StudentA.WriteLineStudentInfo();
+
+Student BStudent = new Student();
+BStudent.name = "NewName";
+BStudent.age = 25;
+StudentB.WriteLineStudentInfo();
+
+
+클래스 배열 선언
+Student[] students = new Student[10];
+for (int i = 0; i < 10; i++) {
+	students[i] = new Student();
+	students[i].InputStudentInfoData();
+}
+
+
+캡슐화
+public -> 외부(다른 클래스)에서 사용할 수 있다.
+private -> 나만(클래스 내부) 쓸 수 있다.
+protected -> 나와 상속받은 자식이 쓸 수 있다.
+
+
+상속
+class 부모클래스이름
+{
+	내용
+}
+class 자식클래스이름 : 부모클래스이름
+{
+
+}
+상속받은 자식클래스는 부모클래스의 
+public, protected로 선언된 변수를 쓸 수 있다.
+
+
+
+
+
+
+
+
